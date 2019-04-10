@@ -7,6 +7,7 @@
             <file>file:/C:/ecommerce/views/admin/products.html</file>
             <file>file:/C:/ecommerce/site.php</file>
             <file>file:/C:/ecommerce/views/index.html</file>
+            <file>file:/C:/ecommerce/views/product-detail.html</file>
             <file>file:/C:/ecommerce/views/admin/header.html</file>
             <file>file:/C:/ecommerce/admin.php</file>
             <file>file:/C:/ecommerce/views/admin/users-create.html</file>
@@ -15,11 +16,13 @@
             <file>file:/C:/ecommerce/functions.php</file>
             <file>file:/C:/ecommerce/views/admin/products-update.html</file>
             <file>file:/C:/ecommerce/views/admin/index.html</file>
+            <file>file:/C:/ecommerce/views/cart.html</file>
             <file>file:/C:/ecommerce/admin-categories.php</file>
             <file>file:/C:/ecommerce/views/admin/products-create.html</file>
             <file>file:/C:/ecommerce/views/admin/users-update.html</file>
             <file>file:/C:/ecommerce/views/category.html</file>
             <file>file:/C:/ecommerce/index.php</file>
+            <file>file:/C:/ecommerce/views/header.html</file>
             <file>file:/C:/ecommerce/views/admin/categories.html</file>
         </group>
     </open-files>
