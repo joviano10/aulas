@@ -7,7 +7,7 @@ use Rain\Tpl;
 class Mailer {
 
     const USERNAME = "adjovian@gmail.com";
-    const PASSWORD = "curso10aulas";
+    const PASSWORD = "EstudeSempre";
     const NAME_FROM = "TESTE PHP";
 
     private $mail;
@@ -29,7 +29,7 @@ class Mailer {
         }
 
         $html = $tpl->draw($tplName, true);
-
+      
         $this->$mail = new \PHPMailer;
 //Tell PHPMailer to use SMTP
         $this->mail->isSMTP();
@@ -47,6 +47,7 @@ class Mailer {
         $this->mail->Port = 587;
 
         $this->mail->isSMTP();
+        
         $this->mail->SMTPOptions = array(
             'ssl' => array(
                 'verify_peer' => false,
@@ -59,6 +60,7 @@ class Mailer {
 //Whether to use SMTP authentication
         $this->mail->SMTPAuth = true;
 //Username to use for SMTP authentication - use full email address for gmail
+        
         $this->email->Username = Mailer::USERNAME;
 //Password to use for SMTP authentication
         $this->mail->Password = Mailer::PASSWORD;
@@ -67,6 +69,7 @@ class Mailer {
 //Set an alternative reply-to address
 //$this->email->addReplyTo('replyto@example.com', 'First Last');
 //Set who the message is to be sent to
+        
         $this->mail->addAddress($toAddress, $toName);
 //Set the subject line
         $this->mail->Subject = $subject;
